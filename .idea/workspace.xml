@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e7829b-4dde-45b6-bc2a-1eb6aebfba90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Nets/model_CD11b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nets/model_CD14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nets/model_CD16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/CD16_classfy.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/CD19_classfy.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/CD25_classfy.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/CD33_classfy.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/CD45RA_classfy.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD127.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD183.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD197.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD274.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD278.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD45RA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD56.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD57.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CD94.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_CXCR5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_PD1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nets/model_gdTCR.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nets/model_CD16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nets/model_CD16.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Nets/model_CD16.py">
+        <entry file="file://$PROJECT_DIR$/markerLabelPrediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
+            <state relative-caret-position="336">
+              <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -32,6 +50,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Auto_gate_20_marker</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Auto_24</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +73,24 @@
         <option value="$PROJECT_DIR$/Nets/model_CD11b.py" />
         <option value="$PROJECT_DIR$/Nets/model_CD14.py" />
         <option value="$PROJECT_DIR$/Nets/model_CD16.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD19.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD25.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD33.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD45RA.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD56.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD57.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD94.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD127.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD183.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD197.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD274.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CD278.py" />
+        <option value="$PROJECT_DIR$/Nets/model_CXCR5.py" />
+        <option value="$PROJECT_DIR$/Nets/model_gdTCR.py" />
+        <option value="$PROJECT_DIR$/Nets/model_PD1.py" />
+        <option value="$PROJECT_DIR$/immuneAgeSubsets.py" />
+        <option value="$PROJECT_DIR$/markerLabelPrediction.py" />
+        <option value="$PROJECT_DIR$/00_Main.py" />
       </list>
     </option>
   </component>
@@ -82,7 +126,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Auto_gate_20_marker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -98,6 +142,127 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.model_CD56">
+    <configuration name="model_CD16" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Auto_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nets/model_CD16.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_CD197" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Auto_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nets/model_CD197.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_CD56" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Auto_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nets/model_CD56.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_CD57" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Auto_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nets/model_CD57.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_CD94" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Auto_24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Nets" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nets/model_CD94.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.model_CD56" />
+        <item itemvalue="Python.model_CD57" />
+        <item itemvalue="Python.model_CD94" />
+        <item itemvalue="Python.model_CD197" />
+        <item itemvalue="Python.model_CD16" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,12 +274,15 @@
       <option name="presentableId" value="Default" />
       <updated>1581745466406</updated>
       <workItem from="1581745467631" duration="5221000" />
-      <workItem from="1581844635604" duration="4473000" />
+      <workItem from="1581844635604" duration="8770000" />
+      <workItem from="1582010137115" duration="11000" />
+      <workItem from="1582017096633" duration="23626000" />
+      <workItem from="1582602405763" duration="10023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9694000" />
+    <option name="totallyTimeSpent" value="47651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -122,9 +290,10 @@
       <window_info content_ui="combo" id="Project" order="0" weight="0.253212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Python Console" order="3" weight="0.46413276" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4449489" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -134,7 +303,6 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.5936436" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -146,6 +314,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD274.coverage" NAME="model_CD274 Coverage Results" MODIFIED="1582515455065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD57.coverage" NAME="model_CD57 Coverage Results" MODIFIED="1582527671813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD45RA.coverage" NAME="model_CD45RA Coverage Results" MODIFIED="1582105837470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD278.coverage" NAME="model_CD278 Coverage Results" MODIFIED="1582515708824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD33.coverage" NAME="model_CD33 Coverage Results" MODIFIED="1582078421676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD94.coverage" NAME="model_CD94 Coverage Results" MODIFIED="1582527020446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_gdTCR.coverage" NAME="model_gdTCR Coverage Results" MODIFIED="1582518815316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD197.coverage" NAME="model_CD197 Coverage Results" MODIFIED="1582526614339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_PD1.coverage" NAME="model_PD1 Coverage Results" MODIFIED="1582519566599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD16.coverage" NAME="model_CD16 Coverage Results" MODIFIED="1582525348036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD56.coverage" NAME="model_CD56 Coverage Results" MODIFIED="1582528046635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CXCR5.coverage" NAME="model_CXCR5 Coverage Results" MODIFIED="1582517390675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD127.coverage" NAME="model_CD127 Coverage Results" MODIFIED="1582192816087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
+    <SUITE FILE_PATH="coverage/Auto_24$model_CD183.coverage" NAME="model_CD183 Coverage Results" MODIFIED="1582279581899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nets" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Nets/model_CD3.py">
@@ -197,10 +381,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="122" column="54" lean-forward="true" selection-start-line="122" selection-start-column="54" selection-end-line="122" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="128" column="43" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD33.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="72" column="44" lean-forward="true" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD45RA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD127.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="84" column="16" lean-forward="true" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD183.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="121" column="21" selection-end-line="133" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD274.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="128" column="54" lean-forward="true" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD278.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="139" lean-forward="true" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CXCR5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_gdTCR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_PD1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nets/model_CD16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
+        <state relative-caret-position="2832">
+          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD197.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2784">
+          <caret line="119" column="22" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD94.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2952">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD57.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nets/model_CD56.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="122" column="31" selection-start-line="122" selection-start-column="31" selection-end-line="122" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/close_channel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#76#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immuneAgeSubsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3484">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markerLabelPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
         </state>
       </provider>
     </entry>

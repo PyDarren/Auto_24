@@ -1,7 +1,13 @@
 # Title     : TODO
 # Objective : TODO
 # Created by: Chen Da
-# Created on: 2020/2/17
+# Created on: 2020/2/24
+
+# Title     : TODO
+# Objective : TODO
+# Created by: Chen Da
+# Created on: 2020/2/20
+
 
 
 import pandas as pd
@@ -67,8 +73,8 @@ if __name__ == "__main__":
     ######################################
     #### Data import
     data_path = 'E:/cd/2_Auto_Gate_24/model_data/'
-    file_0 = 'CD16+'
-    file_1 = 'CD16-'
+    file_0 = 'CXCR5+'
+    file_1 = 'CXCR5-'
     markers = ('CD57', 'CD3',  'CD56', 'gdTCR', 'CCR6', 'CD14 ',
                'CD19', 'CD25', 'CD274(PD-L1)', 'CD278(ICOS)', 'CD45RA', 'CD197(CCR7)',
                'CD11c ', 'CD33', 'CXCR5', 'CD183(CXCR3)', 'CD94',
@@ -130,8 +136,4 @@ if __name__ == "__main__":
     print('\nTest less accuracy:', test_less_acc)
 
     ## save model
-    model.save('C:/Users/pc/OneDrive/git_repo/Auto_24/Models/CD16_classfy.h5')
-
-
-
-
+    model.save('C:/Users/pc/OneDrive/git_repo/Auto_24/Models/CXCR5_classfy.h5')

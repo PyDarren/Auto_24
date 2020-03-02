@@ -1,7 +1,8 @@
 # Title     : TODO
 # Objective : TODO
 # Created by: Chen Da
-# Created on: 2020/2/17
+# Created on: 2020/2/18
+
 
 
 import pandas as pd
@@ -67,8 +68,8 @@ if __name__ == "__main__":
     ######################################
     #### Data import
     data_path = 'E:/cd/2_Auto_Gate_24/model_data/'
-    file_0 = 'CD16+'
-    file_1 = 'CD16-'
+    file_0 = 'CD33+'
+    file_1 = 'CD33-'
     markers = ('CD57', 'CD3',  'CD56', 'gdTCR', 'CCR6', 'CD14 ',
                'CD19', 'CD25', 'CD274(PD-L1)', 'CD278(ICOS)', 'CD45RA', 'CD197(CCR7)',
                'CD11c ', 'CD33', 'CXCR5', 'CD183(CXCR3)', 'CD94',
@@ -118,7 +119,7 @@ if __name__ == "__main__":
 
     model.fit(train_X,
               train_labels,
-              epochs=100,
+              epochs=10,
               # batch_size=16384,
               # validation_data=(test_X, test_labels),
               # verbose=2
@@ -130,8 +131,5 @@ if __name__ == "__main__":
     print('\nTest less accuracy:', test_less_acc)
 
     ## save model
-    model.save('C:/Users/pc/OneDrive/git_repo/Auto_24/Models/CD16_classfy.h5')
-
-
-
+    model.save('C:/Users/pc/OneDrive/git_repo/Auto_24/Models/CD33_classfy.h5')
 
